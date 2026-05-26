@@ -1,0 +1,17 @@
+@import "tailwindcss";
+body {
+    font-family: "League Spartan", sans-serif;
+    background-color: #00111C;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* trava scroll só em desktop */
+@media (min-width: 768px) {
+  html,
+  body {
+    overflow: hidden;
+  }
+}
